@@ -222,7 +222,7 @@
   padding: 0;
   width: 23.75%;
   margin-top: 2%;
-  box-shadow: 0 2% 10% 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
 }
 .personality__caption {
   margin: 0;
@@ -249,4 +249,66 @@
   font-size: 12px;
   line-height: 12px;
   color: #808080;
+}
+.success-stories {
+  padding: 4% 0;
+  background-color: #ffffff;
+}
+.success-stories__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+}
+.success-stories__slider {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.75%;
+  padding: 0 10%;
+}
+.success-stories__control--prev {
+  left: 0;
+  top: 50%;
+}
+.success-stories__control--next {
+  right: 0;
+  top: 50%;
+}
+.control {
+  position: absolute;
+}
+.slide {
+  width: 32%;
+  box-sizing: border-box;
+  padding-top: 3%;
+  padding-bottom: 2.75%;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #000000;
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.slide img {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+.slide__name {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.slide__company {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #808080;
+}
+.slide__story {
+  margin: 5% 10% 0 10%;
 }
