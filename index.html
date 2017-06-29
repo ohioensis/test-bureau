@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header class="page-header">
-		<div class="content-wrapper">
+		<div class="content-wrapper content-wrapper--flex">
 			<a href="#" class="logo">
 				<img src="img/logo-2x.png" width="100%" height="auto">
 			</a>
@@ -50,146 +50,126 @@
 			<div class="content-wrapper">
 				<h2 class="about__title">Сообщество успешных бизнесменов, менторов и экспертов</h2>
 				<p class="about__description">Мы объединили на одной площадке лучших в своих сферах предпринимателей, которые готовы поделиться с Вами своим опытом и помочь в решении ваших бизнес-задач.</p>
-				<a href="#" class="btn about__btn">Решить задачу</a>
-				<a href="#" class="btn about__btn--more">Узнать больше</a>
+				<div class="about__more">
+					<a href="#" class="btn about__btn">Решить задачу</a>
+					<a href="#" class="btn about__btn about__btn--more">Узнать больше</a>
+				</div>			
 				<div class="caption">
 					<b class="caption__name">Андрей Шаронов</b>
-					<p class="caption__position">Президент школы управления «Сколково», Ментор Getup</p>
+					<p class="caption__position">Президент школы управления «Сколково», <span>Ментор Getup</span></p>
 				</div>
 			</div>
 		</section>
 		<div class="menu">
-			<div class="content-wrapper">
-				<section class="menu-item">
-					<h3 class="menu-item__title">Менторы</h3>
-					<p class="menu-item__description">Люди, которые начинали с малого, но стали лучшими предпринимателями и инвесторами в России</p>
-					<a href="#" class="btn menu-item__btn">Подобрать</a>
-				</section>
-				<section class="menu-item">
-					<h3 class="menu-item__title">Эксперты</h3>
-					<p class="menu-item__description">Профессионалы в своей области. У Вас есть проблема - у них есть решение</p>
-					<a href="#" class="btn menu-item__btn">Подобрать</a>
-				</section>
-				<section class="menu-item">
-					<h3 class="menu-item__title">Спикеры</h3>
-					<p class="menu-item__description">Они помогут сделать Ваше бизнес-мероприятие не просто хорошим, а потрясающим и запоминающимся</p>
-					<a href="#" class="btn menu-item__btn">Подобрать</a>
-				</section>
+			<div class="content-wrapper content-wrapper--flex">
+				<div class="menu__wrapper">
+					<section class="menu-item">
+						<h3 class="menu-item__title">Менторы</h3>
+						<p class="menu-item__description">Люди, которые начинали с малого, но стали лучшими предпринимателями и инвесторами в России</p>
+						<a href="#" class="btn menu-item__btn">Подобрать</a>
+					</section>
+					<section class="menu-item">
+						<h3 class="menu-item__title">Эксперты</h3>
+						<p class="menu-item__description">Профессионалы в своей области. У Вас есть проблема - у них есть решение</p>
+						<a href="#" class="btn menu-item__btn">Подобрать</a>
+					</section>
+					<section class="menu-item">
+						<h3 class="menu-item__title">Спикеры</h3>
+						<p class="menu-item__description">Они помогут сделать Ваше бизнес-мероприятие не просто хорошим, а потрясающим и запоминающимся</p>
+						<a href="#" class="btn menu-item__btn">Подобрать</a>
+					</section>
+				</div>
 			</div>
 		</div>
 		<section class="persons">
 			<div class="content-wrapper">
 				<h2 class="persons__title">Они готовы поделиться своими знаниями с Вами</h2>
-				<ul class="persons__list">
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/volozh.jpg" width="100%" height="auto" alt="Аркадий Волож">
-							<figcaption class="personality__caption">
-								<b>Аркадий Волож</b>
-								<p>Ментор</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/nakhapetyan.jpg" width="100%" height="auto" alt="Гор Нахапетян">
-							<figcaption class="personality__caption">
-								<b>Гор Нахапетян</b>
-								<p>Ментор</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/dorsy.jpg" width="100%" height="auto" alt="Джек Дорси">
-							<figcaption class="personality__caption">
-								<b>Джек Дорси</b>
-								<p>Эксперт</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/bistronovsky.jpg" width="100%" height="auto" alt="Людвиг Быстроновский">
-							<figcaption class="personality__caption">
-								<b>Людвиг Быстроновский</b>
-								<p>Эксперт</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/larionov.jpg" width="100%" height="auto" alt="Евгений Ларионов">
-							<figcaption class="personality__caption">
-								<b>Евгений Ларионов</b>
-								<p>Ментор, Спикер</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/evtushenkov.jpg" width="100%" height="auto" alt="Владимир Евтушенков">
-							<figcaption class="personality__caption">
-								<b>Владимир Евтушенков</b>
-								<p>Ментор</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/mann.jpg" width="100%" height="auto" alt="Игорь Манн">
-							<figcaption class="personality__caption">
-								<b>Игорь Манн</b>
-								<p>Эксперт, Спикер</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/gandapas.jpg" width="100%" height="auto" alt="Радислав Гандапас">
-							<figcaption class="personality__caption">
-								<b>Радислав Гандапас</b>
-								<p>Эксперт</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/gekko.jpg" width="100%" height="auto" alt="Гордон Гекко">
-							<figcaption class="personality__caption">
-								<b>Гордон Гекко</b>
-								<p>Ментор</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/gates.jpg" width="100%" height="auto" alt="Билл Гейтс">
-							<figcaption class="personality__caption">
-								<b>Билл Гейтс</b>
-								<p>Ментор</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/coch.jpg" width="100%" height="auto" alt="Чарльз Кох">
-							<figcaption class="personality__caption">
-								<b>Чарльз Кох</b>
-								<p>Эксперт</p>
-							</figcaption>
-						</figure>
-					</li>
-					<li class="persons__item">
-						<figure class="personality">
-							<img src="img/zuckerberg.jpg" width="100%" height="auto" alt="Марк Цукерберг">
-							<figcaption class="personality__caption">
-								<b>Марк Цукерберг</b>
-								<p>Эксперт</p>
-							</figcaption>
-						</figure>
-					</li>
-				</ul>
+				<div class="persons__list">
+					<figure class="personality">
+						<img src="img/volozh.jpg" width="100%" height="auto" alt="Аркадий Волож">
+						<figcaption class="personality__caption">
+							<b>Аркадий Волож</b>
+							<p>Ментор</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/nakhapetyan.jpg" width="100%" height="auto" alt="Гор Нахапетян">
+						<figcaption class="personality__caption">
+							<b>Гор Нахапетян</b>
+							<p>Ментор</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/dorsy.jpg" width="100%" height="auto" alt="Джек Дорси">
+						<figcaption class="personality__caption">
+							<b>Джек Дорси</b>
+							<p>Эксперт</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/bistronovsky.jpg" width="100%" height="auto" alt="Людвиг Быстроновский">
+						<figcaption class="personality__caption">
+							<b>Людвиг Быстроновский</b>
+							<p>Эксперт</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/larionov.jpg" width="100%" height="auto" alt="Евгений Ларионов">
+						<figcaption class="personality__caption">
+							<b>Евгений Ларионов</b>
+							<p>Ментор, Спикер</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/evtushenkov.jpg" width="100%" height="auto" alt="Владимир Евтушенков">
+						<figcaption class="personality__caption">
+							<b>Владимир Евтушенков</b>
+							<p>Ментор</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/mann.jpg" width="100%" height="auto" alt="Игорь Манн">
+						<figcaption class="personality__caption">
+							<b>Игорь Манн</b>
+							<p>Эксперт, Спикер</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/gandapas.jpg" width="100%" height="auto" alt="Радислав Гандапас">
+						<figcaption class="personality__caption">
+							<b>Радислав Гандапас</b>
+							<p>Эксперт</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/gekko.jpg" width="100%" height="auto" alt="Гордон Гекко">
+						<figcaption class="personality__caption">
+							<b>Гордон Гекко</b>
+							<p>Ментор</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/gates.jpg" width="100%" height="auto" alt="Билл Гейтс">
+						<figcaption class="personality__caption">
+							<b>Билл Гейтс</b>
+							<p>Ментор</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/coch.jpg" width="100%" height="auto" alt="Чарльз Кох">
+						<figcaption class="personality__caption">
+							<b>Чарльз Кох</b>
+							<p>Эксперт</p>
+						</figcaption>
+					</figure>
+					<figure class="personality">
+						<img src="img/zuckerberg.jpg" width="100%" height="auto" alt="Марк Цукерберг">
+						<figcaption class="personality__caption">
+							<b>Марк Цукерберг</b>
+							<p>Эксперт</p>
+						</figcaption>
+					</figure>
+				</div>
 				<a href="#" class="btn persons__btn">Подобрать лично для меня</a>
 			</div>
 		</section>
