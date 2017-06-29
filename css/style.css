@@ -1,0 +1,82 @@
+.page-header {
+  min-height: 100px;
+  background-color: #ffffff;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 83%;
+  height: inherit;
+  margin: 0 auto;
+}
+.logo {
+  width: 13%;
+  margin: 3% 0 2.5% 0;
+}
+.header-nav {
+  width: 35%;
+  margin-right: 8.3%;
+}
+.header-nav__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header-nav__item a {
+  text-decoration: none;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #000000;
+}
+.contacts {
+  width: 20%;
+  margin: 0 1.5%;
+}
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contacts__item a {
+  text-decoration: none;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #000000;
+  font-size: 22px;
+  line-height: 22px;
+}
+.contacts__item--icon a {
+  display: block;
+  width: 27px;
+  height: 27px;
+  font-size: 0;
+  background-color: #000000;
+  /*на время пока нет спрайта*/
+}
+.btn {
+  display: block;
+  min-width: 140px;
+  padding: 13px;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  color: #000000;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #5f29cc;
+  border: 1px solid #5f29cc;
+  border-radius: 2px;
+}
