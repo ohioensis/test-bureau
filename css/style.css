@@ -86,6 +86,12 @@
   background: url("../img/background-about.jpg") no-repeat;
   background-position: top -15px left 0;
 }
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .about {
+    background: url("../img/background-about-2x.jpg") no-repeat;
+    background-position: top -15px left 0;
+  }
+}
 .about__title {
   margin: 0;
   padding: 0;
@@ -296,6 +302,7 @@
   display: block;
   width: 100px;
   margin: 0 auto;
+  border-radius: 50%;
 }
 .slide__name {
   margin: 0;
@@ -351,6 +358,11 @@
   color: #000000;
   background: #ffffff url("../img/slide-tinkoff.jpg") no-repeat top;
 }
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .quotes-slider {
+    background: #ffffff url("../img/slide-tinkoff-2x.jpg") no-repeat top;
+  }
+}
 .success-stories__control--prev {
   left: 0;
   top: 50%;
@@ -399,6 +411,11 @@
   color: #ffffff;
   background: url("../img/background-order.jpg") no-repeat top;
   border-bottom: 2px solid #f4f4f4;
+}
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .order {
+    background: url("../img/background-order-2x.jpg") no-repeat top;
+  }
 }
 .order__title {
   margin: 0;
