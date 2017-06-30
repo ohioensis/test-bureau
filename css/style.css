@@ -575,17 +575,47 @@
 .social__item--fb a::before {
   background-position: -261px -51px;
 }
+@media (min-resolution: 1.5dppx) {
+  .social__item--fb a::before {
+    background-image: url("../img/icon-fb-2x.png");
+    background-size: cover;
+  }
+}
 .social__item--vk a::before {
   background-position: -475px -300px;
+}
+@media (min-resolution: 1.5dppx) {
+  .social__item--vk a::before {
+    background-image: url("../img/icon-vk-2x.png");
+    background-size: cover;
+  }
 }
 .social__item--twi a::before {
   background-position: -475px -177px;
 }
+@media (min-resolution: 1.5dppx) {
+  .social__item--twi a::before {
+    background-image: url("../img/icon-twi-2x.png");
+    background-size: cover;
+  }
+}
 .social__item--link a::before {
   background-position: -261px -174px;
 }
+@media (min-resolution: 1.5dppx) {
+  .social__item--link a::before {
+    background-image: url("../img/icon-link-2x.png");
+    background-size: cover;
+  }
+}
 .social__item--inst a::before {
   background-position: -384px -50px;
+}
+@media (min-resolution: 1.5dppx) {
+  .social__item--inst a::before {
+    background-image: url("../img/icon-inst-2x.png");
+    background-size: cover;
+  }
 }
 .page-footer {
   background-color: #f5f5f5;
