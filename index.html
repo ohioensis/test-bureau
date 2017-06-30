@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<meta charset="utf-8">
 	<title>Bureau</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
-	<header class="page-header">
+	<header class="page-header" id="page-header">
 		<div class="content-wrapper content-wrapper--flex">
 			<a href="#" class="logo">
-				<img src="img/logo-2x.png" width="100%" height="auto">
+				<img src="img/logo-2x.png" alt="Experium">
 			</a>
-			<nav class="header-nav">
+			<nav class="header-nav" id="header-nav">
 				<ul class="header-nav__list">
 					<li class="header-nav__item">
-						<a href="#">Менторы</a>
+						<a href="#menu">Менторы</a>
 					</li>
 					<li class="header-nav__item">
-						<a href="#">Эксперты</a>
+						<a href="#menu">Эксперты</a>
 					</li>
 					<li class="header-nav__item">
 						<a href="#">Проекты</a>
@@ -46,124 +46,124 @@
 		</div>
 	</header>
 	<main>
-		<section class="about">
+		<section class="about" id="about">
 			<div class="content-wrapper">
 				<h2 class="about__title">Сообщество успешных бизнесменов, менторов и экспертов</h2>
 				<p class="about__description">Мы объединили на одной площадке лучших в своих сферах предпринимателей, которые готовы поделиться с Вами своим опытом и помочь в решении ваших бизнес-задач.</p>
 				<div class="about__more">
-					<a href="#" class="btn about__btn">Решить задачу</a>
-					<a href="#" class="btn about__btn about__btn--more">Узнать больше</a>
+					<a href="#order" class="btn about__btn">Решить задачу</a>
+					<a href="#success-stories" class="btn about__btn about__btn--more">Узнать больше</a>
 				</div>			
-				<div class="caption">
+			</div>
+			<div class="caption">
 					<b class="caption__name">Андрей Шаронов</b>
 					<p class="caption__position">Президент школы управления «Сколково», <span>Ментор Getup</span></p>
 				</div>
-			</div>
 		</section>
-		<div class="menu">
+		<div class="menu" id="menu">
 			<div class="content-wrapper content-wrapper--flex">
 				<div class="menu__wrapper">
 					<section class="menu-item">
 						<h3 class="menu-item__title">Менторы</h3>
 						<p class="menu-item__description">Люди, которые начинали с малого, но стали лучшими предпринимателями и инвесторами в России</p>
-						<a href="#" class="btn menu-item__btn">Подобрать</a>
+						<a href="#persons" class="btn menu-item__btn">Подобрать</a>
 					</section>
 					<section class="menu-item">
 						<h3 class="menu-item__title">Эксперты</h3>
 						<p class="menu-item__description">Профессионалы в своей области. У Вас есть проблема - у них есть решение</p>
-						<a href="#" class="btn menu-item__btn">Подобрать</a>
+						<a href="#persons" class="btn menu-item__btn">Подобрать</a>
 					</section>
 					<section class="menu-item">
 						<h3 class="menu-item__title">Спикеры</h3>
 						<p class="menu-item__description">Они помогут сделать Ваше бизнес-мероприятие не просто хорошим, а потрясающим и запоминающимся</p>
-						<a href="#" class="btn menu-item__btn">Подобрать</a>
+						<a href="#persons" class="btn menu-item__btn">Подобрать</a>
 					</section>
 				</div>
 			</div>
 		</div>
-		<section class="persons">
+		<section class="persons" id="persons">
 			<div class="content-wrapper">
 				<h2 class="persons__title">Они готовы поделиться своими знаниями с Вами</h2>
 				<div class="persons__list">
 					<figure class="personality">
-						<img src="img/volozh-2x.jpg" width="100%" height="auto" alt="Аркадий Волож">
+						<img src="img/volozh-2x.jpg" alt="Аркадий Волож">
 						<figcaption class="personality__caption">
 							<b>Аркадий Волож</b>
 							<p>Ментор</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/nakhapetyan-2x.jpg" width="100%" height="auto" alt="Гор Нахапетян">
+						<img src="img/nakhapetyan-2x.jpg" alt="Гор Нахапетян">
 						<figcaption class="personality__caption">
 							<b>Гор Нахапетян</b>
 							<p>Ментор</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/dorsy-2x.jpg" width="100%" height="auto" alt="Джек Дорси">
+						<img src="img/dorsy-2x.jpg" alt="Джек Дорси">
 						<figcaption class="personality__caption">
 							<b>Джек Дорси</b>
 							<p>Эксперт</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/bistronovsky-2x.jpg" width="100%" height="auto" alt="Людвиг Быстроновский">
+						<img src="img/bistronovsky-2x.jpg" alt="Людвиг Быстроновский">
 						<figcaption class="personality__caption">
 							<b>Людвиг Быстроновский</b>
 							<p>Эксперт</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/larionov-2x.jpg" width="100%" height="auto" alt="Евгений Ларионов">
+						<img src="img/larionov-2x.jpg" alt="Евгений Ларионов">
 						<figcaption class="personality__caption">
 							<b>Евгений Ларионов</b>
 							<p>Ментор, Спикер</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/evtushenkov-2x.jpg" width="100%" height="auto" alt="Владимир Евтушенков">
+						<img src="img/evtushenkov-2x.jpg" alt="Владимир Евтушенков">
 						<figcaption class="personality__caption">
 							<b>Владимир Евтушенков</b>
 							<p>Ментор</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/mann-2x.jpg" width="100%" height="auto" alt="Игорь Манн">
+						<img src="img/mann-2x.jpg" alt="Игорь Манн">
 						<figcaption class="personality__caption">
 							<b>Игорь Манн</b>
 							<p>Эксперт, Спикер</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/gandapas-2x.jpg" width="100%" height="auto" alt="Радислав Гандапас">
+						<img src="img/gandapas-2x.jpg" alt="Радислав Гандапас">
 						<figcaption class="personality__caption">
 							<b>Радислав Гандапас</b>
 							<p>Эксперт</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/gekko-2x.jpg" width="100%" height="auto" alt="Гордон Гекко">
+						<img src="img/gekko-2x.jpg" alt="Гордон Гекко">
 						<figcaption class="personality__caption">
 							<b>Гордон Гекко</b>
 							<p>Ментор</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/gates-2x.jpg" width="100%" height="auto" alt="Билл Гейтс">
+						<img src="img/gates-2x.jpg" alt="Билл Гейтс">
 						<figcaption class="personality__caption">
 							<b>Билл Гейтс</b>
 							<p>Ментор</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/coch-2x.jpg" width="100%" height="auto" alt="Чарльз Кох">
+						<img src="img/coch-2x.jpg" alt="Чарльз Кох">
 						<figcaption class="personality__caption">
 							<b>Чарльз Кох</b>
 							<p>Эксперт</p>
 						</figcaption>
 					</figure>
 					<figure class="personality">
-						<img src="img/zuckerberg-2x.jpg" width="100%" height="auto" alt="Марк Цукерберг">
+						<img src="img/zuckerberg-2x.jpg" alt="Марк Цукерберг">
 						<figcaption class="personality__caption">
 							<b>Марк Цукерберг</b>
 							<p>Эксперт</p>
@@ -173,24 +173,24 @@
 				<a href="#" class="btn persons__btn">Подобрать лично для меня</a>
 			</div>
 		</section>
-		<section class="success-stories">
+		<section class="success-stories" id="success-stories">
 			<div class="content-wrapper">
 				<h2 class="success-stories__title">Истории успеха</h2>
 				<div class="success-stories__slider">
 						<article class="slide">
-							<img src="img/krilova-2x.jpg" width="100%" height="auto" alt="Александра Крылова">
+							<img src="img/krilova-2x.jpg" alt="Александра Крылова">
 							<h3 class="slide__name">Александра Крылова</h3>
 							<small class="slide__company">Telegram</small>
 							<p class="slide__story">Год назад месячная аудитория Telegram составляла 35 млн юзеров, а летом 2015 года мессенджером уже пользовалось более 60 млн</p>
 						</article>
 						<article class="slide">
-							<img src="img/tavrin-2x.jpg" width="100%" height="auto" alt="Иван Таврин">
+							<img src="img/tavrin-2x.jpg" alt="Иван Таврин">
 							<h3 class="slide__name">Иван Таврин</h3>
 							<small class="slide__company">«ЮТВ Холдинг», USM Holdings</small>
 							<p class="slide__story">В 1996 году студент международно-правового факультета МГИМО Иван Таврин учрежил вместе с другом рекламное агентство «Констракт».</p>
 						</article>
 						<article class="slide">
-							<img src="img/voinov-2x.jpg" width="100%" height="auto" alt="Семён Воинов">
+							<img src="img/voinov-2x.jpg" alt="Семён Воинов">
 							<h3 class="slide__name">Семён Воинов</h3>
 							<small class="slide__company">Zeptolab</small>
 							<p class="slide__story">Игра Cut The Rope, созданная компанией Zeptolab братьев Воиновых, продолжает завоёвывать мир. В этом году она вышла на перспективный рынок Индии.</p>
@@ -205,49 +205,49 @@
 				<h2 class="partners__title">Наши партнеры</h2>
 				<ul class="partners__list">
 					<li class="partners__item">
-						<img src="img/rostelekom-2x.png" width="119" height="auto" alt="Ростелеком">
+						<img src="img/rostelekom-2x.png" alt="Ростелеком">
 					</li>
 					<li class="partners__item">
-						<img src="img/michelin-2x.png" width="115" height="auto" alt="Мишлен">
+						<img src="img/michelin-2x.png" alt="Мишлен">
 					</li>
 					<li class="partners__item">
-						<img src="img/skoda-2x.png" width="74" height="auto" alt="Шкода">
+						<img src="img/skoda-2x.png" alt="Шкода">
 					</li>
 					<li class="partners__item">
-						<img src="img/ford-2x.png" width="117" height="auto" alt="Форд">
+						<img src="img/ford-2x.png" alt="Форд">
 					</li>
 					<li class="partners__item">
-						<img src="img/microsoft-2x.png" width="132" height="auto" alt="Майкрософт">
+						<img src="img/microsoft-2x.png" alt="Майкрософт">
 					</li>
 					<li class="partners__item">
-						<img src="img/bosch-2x.png" width="115" height="auto" alt="Бош">
+						<img src="img/bosch-2x.png" alt="Бош">
 					</li>
 					<li class="partners__item">
-						<img src="img/cybergame-2x.png" width="121" height="auto" alt="Кибергейм">
+						<img src="img/cybergame-2x.png" alt="Кибергейм">
 					</li>
 					<li class="partners__item">
-						<img src="img/aeroflot-2x.png" width="136" height="auto" alt="Аэрофлот">
+						<img src="img/aeroflot-2x.png" alt="Аэрофлот">
 					</li>
 					<li class="partners__item">
-						<img src="img/adidas-2x.png" width="78" height="auto" alt="Адидас">
+						<img src="img/adidas-2x.png" alt="Адидас">
 					</li>
 					<li class="partners__item">
-						<img src="img/itmo-2x.png" width="114" height="auto" alt="Университет ИТМО">
+						<img src="img/itmo-2x.png" alt="Университет ИТМО">
 					</li>
 					<li class="partners__item">
-						<img src="img/pentax-2x.png" width="123" height="auto" alt="Пентакс">
+						<img src="img/pentax-2x.png" alt="Пентакс">
 					</li>
 					<li class="partners__item">
-						<img src="img/playstation-2x.png" width="74" height="auto" alt="Плейстейшн">
+						<img src="img/playstation-2x.png" alt="Плейстейшн">
 					</li>
 					<li class="partners__item">
-						<img src="img/paypal-2x.png" width="129" height="auto" alt="Пейпэл">
+						<img src="img/paypal-2x.png" alt="Пейпэл">
 					</li>
 					<li class="partners__item">
-						<img src="img/dolcegabbana-2x.png" width="101" height="auto" alt="Дольче-Габбана">
+						<img src="img/dolcegabbana-2x.png" alt="Дольче-Габбана">
 					</li>
 					<li class="partners__item">
-						<img src="img/genius-2x.png" width="125" height="auto" alt="Джениус Маркетинг">
+						<img src="img/genius-2x.png" alt="Джениус Маркетинг">
 					</li>			
 				</ul>
 			</div>
@@ -262,7 +262,7 @@
 				</article>
 			</div>
 		</div>
-		<section class="order">
+		<section class="order" id="order">
 			<div class="content-wrapper">
 				<h2 class="order__title">От качественного и быстрого решения зависит Ваш успех</h2>
 				<p class="order__paragraph">Наши кандидаты уже получили свой колоссальный опыт в принятии решений на пути становления успешными предпринимателями. Мы подберем для Вас человека, который сможет помочь Вам в Вашем вопросе.</p>
@@ -292,10 +292,10 @@
 			</div>
 		</section>
 	</main>
-	<footer class="page-footer">
+	<footer class="page-footer" id="page-footer">
 		<div class="content-wrapper content-wrapper--flex">
-			<a href="#" class="logo">
-				<img src="img/logo.png" width="100%" height="auto">
+			<a href="#page-header" class="logo">
+				<img src="img/logo.png" alt="Experium">
 			</a>
 			<nav class="footer-nav">
 				<ul class="footer-nav__list">
@@ -319,5 +319,6 @@
 			<span class="copyright">&copy; 2017 buro.com</span>
 		</div>
 	</footer>
-</body>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/script.min.js" type="text/javascript"></script>
 </html>
