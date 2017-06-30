@@ -10,6 +10,14 @@
 	cursor: pointer;
 }
 
+.control:hover {
+	background-color: darken(#efe9fa, 10%);
+}
+
+.control:active {
+	background-color: darken(#efe9fa, 20%);
+}
+
 .control::before,
 .control::after,
 .control--next::before,
@@ -49,6 +57,15 @@
 .control--active {
 	background-color: @purple;
 }
+
+.control--active:hover {
+	background-color: darken(@purple, 10%);
+}
+
+.control--active:active {
+	background-color: darken(@purple, 20%);
+}
+
 
 .control--active::before,
 .control--active::after {

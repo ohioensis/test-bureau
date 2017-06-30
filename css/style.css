@@ -1,3 +1,6 @@
+/*Кнопки при наведении*/
+/*Кнопки при нажатии*/
+/*Поведение навигации*/
 .page-header {
   min-height: 100px;
   background-color: #ffffff;
@@ -34,6 +37,9 @@
   font-weight: normal;
   color: #000000;
 }
+.header-nav__item a:hover {
+  font-weight: bold;
+}
 .contacts {
   width: 20.5%;
   margin: 0 1.5%;
@@ -54,6 +60,9 @@
   color: #000000;
   font-size: 22px;
   line-height: 22px;
+}
+.contacts__item a:hover {
+  font-weight: bold;
 }
 .contacts__item--icon a {
   display: block;
@@ -99,6 +108,13 @@
   border: 1px solid #5f29cc;
   border-radius: 2px;
 }
+.btn:hover {
+  color: #ffffff;
+  background-color: #5f29cc;
+}
+.btn:active {
+  background-color: #4b20a2;
+}
 .about {
   padding: 6% 0;
   background: url("../img/background-about-2x.jpg") no-repeat;
@@ -137,9 +153,27 @@
   color: #ffffff;
   background-color: #5f29cc;
 }
+.about__btn:hover {
+  background-color: #8c10e5;
+  border-color: #8c10e5;
+}
+.about__btn:active {
+  background-color: #6f0db5;
+  border-color: #6f0db5;
+}
 .about__btn--more {
   background-color: transparent;
   border-color: #ffffff;
+}
+.about__btn--more:hover {
+  color: #5f29cc;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.about__btn--more:active {
+  color: #5f29cc;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 .caption {
   position: absolute;
@@ -272,6 +306,14 @@
   color: #ffffff;
   background-color: #5f29cc;
 }
+.persons__btn:hover {
+  background-color: #8c10e5;
+  border-color: #8c10e5;
+}
+.persons__btn:active {
+  background-color: #6f0db5;
+  border-color: #6f0db5;
+}
 .personality {
   margin: 0;
   padding: 0;
@@ -343,6 +385,12 @@
   background-color: #efe9fa;
   cursor: pointer;
 }
+.control:hover {
+  background-color: #d1bff1;
+}
+.control:active {
+  background-color: #b396e7;
+}
 .control::before,
 .control::after,
 .control--next::before,
@@ -375,6 +423,12 @@
 }
 .control--active {
   background-color: #5f29cc;
+}
+.control--active:hover {
+  background-color: #4b20a2;
+}
+.control--active:active {
+  background-color: #371877;
 }
 .control--active::before,
 .control--active::after {
@@ -529,6 +583,14 @@
   color: #ffffff;
   background-color: #5f29cc;
 }
+.order__btn:hover {
+  background-color: #8c10e5;
+  border-color: #8c10e5;
+}
+.order__btn:active {
+  background-color: #6f0db5;
+  border-color: #6f0db5;
+}
 .social {
   padding: 3% 0;
   background-color: #ffffff;
@@ -562,6 +624,20 @@
   padding-left: 38px;
   text-decoration: none;
   color: #7d7d7d;
+}
+.social__item:hover {
+  background-color: rgba(68, 41, 204, 0.6);
+  border-color: rgba(68, 41, 204, 0.6);
+}
+.social__item:hover a {
+  color: #ffffff;
+}
+.social__item:active {
+  background-color: rgba(68, 41, 204, 0.8);
+  border-color: rgba(68, 41, 204, 0.8);
+}
+.social__item:active a {
+  color: #ffffff;
 }
 .social__item a::before {
   position: absolute;
@@ -640,6 +716,9 @@
   color: #000000;
   font-size: 14px;
   line-height: 14px;
+}
+.footer-nav__item a:hover {
+  font-weight: bold;
 }
 .copyright {
   display: block;

@@ -25,3 +25,60 @@
 .border() {
 	border: 1px solid #5f29cc;
 }
+
+/*Кнопки при наведении*/
+
+.hover-btn() {
+	color: @white;
+	background-color: @purple;
+}
+
+.hover-btn-purple() {
+	background-color: saturate(spin(@purple, 15%), 20%);
+	border-color: saturate(spin(@purple, 15%), 20%);
+}
+
+.hover-btn-transparent () {
+	color: @purple;
+	background-color: @white;
+	border-color: @white;
+}
+
+.hover-social() {
+	background-color: fade(spin(@purple, -10%), 60%);
+	border-color: fade(spin(@purple, -10%), 60%);
+	a {
+		color: @white;
+	}
+}
+
+/*Кнопки при нажатии*/
+
+.active-btn() {
+	background-color: darken(@purple, 10%);
+}
+
+.active-btn-purple() {
+	background-color: darken(saturate(spin(@purple, 15%), 20%), 10%);
+	border-color: darken(saturate(spin(@purple, 15%), 20%), 10%);
+}
+
+.active-btn-transparent() {
+	color: @purple;
+	background-color: fade(@white, 80%);
+	border-color: fade(@white, 80%);
+}
+
+.active-social() {
+	background-color: fade(spin(@purple, -10%), 80%);
+	border-color: fade(spin(@purple, -10%), 80%);
+	a {
+		color: @white;
+	}
+}
+
+/*Поведение навигации*/
+
+.item-hover() {
+	font-weight: bold;
+}
