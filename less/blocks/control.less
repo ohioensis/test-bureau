@@ -1,3 +1,56 @@
 .control {
 	position: absolute;
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	background-color: #efe9fa;
+	cursor: pointer;
+}
+
+.control::before,
+.control::after,
+.control--next::before,
+.control--next::after {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 10px;
+	background-color: @purple;
+}
+
+.control::before {
+	top: 17px;
+	left: 23px;
+	transform: rotate(45deg);
+}
+
+.control::after {
+	top: 23px;
+	left: 23px;
+	transform: rotate(-45deg);
+}
+
+.control--next::before,
+ {
+ 	top: 17px;
+	left: 25px;
+	transform: rotate(-45deg);	
+}
+
+.control--next::after {
+	top: 23px;
+	left: 25px;
+	transform: rotate(45deg);
+}
+
+.control--active {
+	background-color: @purple;
+}
+
+.control--active::before,
+.control--active::after {
+	background-color: @white;
 }

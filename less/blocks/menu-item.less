@@ -1,9 +1,53 @@
 .menu-item {
-	width: 33%;
-	padding-top: 10%;
+	position: relative;
+	width: 32%;
+	padding-top: 13.5%;
 	text-align: center;
 	.font-basic();
 }
+
+.menu-item::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	content: "";
+	width: 112px;
+	height: 113px;
+	background: transparent url("../img/sprite-bureau.png") no-repeat center;
+	background-position: -50px -296px;
+}
+
+@media (min-resolution: 1.5dppx) {
+	.menu-item::before {
+		background-image: url("../img/icon-mentor-2x.png");
+		background-size: cover;
+	}
+}
+
+.menu-item:nth-child(2)::before {
+	background-position: -50px -50px;
+}
+
+@media (min-resolution: 1.5dppx) {
+	.menu-item:nth-child(2)::before {
+		background-image: url("../img/icon-expert-2x.png");
+		background-size: cover;
+	}
+}
+
+.menu-item:last-child::before {
+	background-position: -262px -296px;
+}
+
+@media (min-resolution: 1.5dppx) {
+	.menu-item:last-child::before {
+		background-image: url("../img/icon-speaker-2x.png");
+		background-size: cover;
+	}
+}
+
 
 .menu-item__title {
 	.no-margins();

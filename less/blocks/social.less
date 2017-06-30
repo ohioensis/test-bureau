@@ -25,8 +25,39 @@
 	padding-bottom: 18px;
 	border-color: #ebebeb;
 	a {
+		position: relative;
 		padding-left: 38px;
 		text-decoration: none;
 		color: #7d7d7d;
 	}
+}
+
+.social__item a::before {
+	position: absolute;
+	top: -3px;
+	left: 0;
+	content: "";
+	width: 22px;
+	height: 23px;
+	background: transparent url("../img/sprite-bureau.png") no-repeat center;
+}
+
+.social__item--fb a::before {
+	background-position: -261px -51px;
+}
+
+.social__item--vk a::before {
+	background-position: -475px -300px;
+}
+
+.social__item--twi a::before {
+	background-position: -475px -177px;
+}
+
+.social__item--link a::before {
+	background-position: -261px -174px;
+}
+
+.social__item--inst a::before {
+	background-position: -384px -50px;
 }
